@@ -161,7 +161,8 @@ CREATE TABLE `ullere` (
   `graduacio_r` float NOT NULL,
   `tipus_montura` enum('flotant','pasta','metàl.lica') NOT NULL,
   `color_montura` varchar(25) NOT NULL,
-  `color_vidre` varchar(25) NOT NULL,
+  `color_vidre_l` varchar(25) NOT NULL,
+  `color_vidre_r` varchar(25) NOT NULL,
   `preu` float NOT NULL,
   `proveidor_id` int(11) NOT NULL,
   PRIMARY KEY (`id`),
@@ -177,7 +178,7 @@ CREATE TABLE `ullere` (
 
 LOCK TABLES `ullere` WRITE;
 /*!40000 ALTER TABLE `ullere` DISABLE KEYS */;
-INSERT INTO `ullere` VALUES (1,'Marca 1',-1.25,-1.5,'flotant','Negro','Transparente',150,1),(2,'Marca 2',-2,-2.25,'pasta','Marrón','Marrón',200,2),(3,'Marca 3',-1.75,-2,'metàl.lica','Plata','Gris',180,3),(4,'Marca 4',-1.5,-1.75,'flotant','Azul','Azul',170,4),(5,'Marca 5',-2.25,-2.5,'pasta','Rojo','Rojo',190,5);
+INSERT INTO `ullere` VALUES (1,'Marca 1',-1.25,-1.5,'flotant','Negro','Transparente','Transparente',150,1),(2,'Marca 2',-2,-2.25,'pasta','Marrón','Marrón','Marrón',200,2),(3,'Marca 3',-1.75,-2,'metàl.lica','Plata','Gris','Gris',180,3),(4,'Marca 4',-1.5,-1.75,'flotant','Azul','Azul','Azul',170,4),(5,'Marca 5',-2.25,-2.5,'pasta','Rojo','Rojo','Rojo',190,5);
 /*!40000 ALTER TABLE `ullere` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
