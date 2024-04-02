@@ -973,7 +973,7 @@
 				},
 				{
 					"id": "1e5ac8d1-8834-4694-8093-6f244d646e5d",
-					"name": "video_id",
+					"name": "videos_id",
 					"datatype": "objectId",
 					"param": "",
 					"pk": false,
@@ -1182,7 +1182,7 @@
 		"def_collation": "",
 		"def_others": "",
 		"connectionVersion": "",
-		"lastSaved": 1712066411754
+		"lastSaved": 1712066545147
 	},
 	"otherObjects": {},
 	"diagrams": {
