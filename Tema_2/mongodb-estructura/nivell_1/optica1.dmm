@@ -577,7 +577,7 @@
 					"list": false,
 					"comment": "",
 					"data": "",
-					"enum": "\"float\",\"pasta\",\"metalic\"",
+					"enum": "['float','pasta','metalic']",
 					"validation": "",
 					"pattern": false,
 					"estimatedSize": "",
@@ -970,7 +970,7 @@
 					"list": false,
 					"comment": "",
 					"data": "",
-					"enum": "\"float\",\"pasta\",\"metalic\"",
+					"enum": "['float','pasta','metalic']",
 					"validation": "",
 					"pattern": false,
 					"estimatedSize": "",
@@ -1178,7 +1178,7 @@
 		"def_collation": "",
 		"def_others": "",
 		"connectionVersion": "",
-		"lastSaved": 1711281343118
+		"lastSaved": 1712779745261
 	},
 	"otherObjects": {},
 	"diagrams": {

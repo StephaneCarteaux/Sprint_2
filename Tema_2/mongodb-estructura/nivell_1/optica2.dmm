@@ -399,7 +399,7 @@
 					"list": false,
 					"comment": "",
 					"data": "",
-					"enum": "\"float\",\"pasta\",\"metalic\"",
+					"enum": "['float','pasta','metalic']",
 					"validation": "",
 					"pattern": false,
 					"estimatedSize": "",
@@ -1341,7 +1341,7 @@
 		"def_collation": "",
 		"def_others": "",
 		"connectionVersion": "",
-		"lastSaved": 1711282291670
+		"lastSaved": 1711889652469
 	},
 	"otherObjects": {},
 	"diagrams": {
@@ -1467,7 +1467,7 @@
 				}
 			},
 			"scroll": {
-				"x": 11.173540115356445,
+				"x": 0,
 				"y": 0
 			},
 			"type": "erd",
